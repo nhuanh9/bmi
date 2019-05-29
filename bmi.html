@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var cn = eval(prompt("Cân nặngs(kg)?"));
+        var cc = eval(prompt("Chiều cao(m)?"));
+        var bmi = cn/(cc*cc);
+        if (bmi<18.5 ){
+            alert("Underweight");
+        } else if (18.5 <= bmi && bmi < 25){
+            alert("Normal");
+        } else if (25 <= bmi && bmi < 30){
+            alert("Overweight");
+        } else {
+            alert("Obese")
+        }
+    </script>
+</body>
+</html>
